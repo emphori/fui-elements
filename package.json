@@ -1,0 +1,13 @@
+{
+  "name": "fui-elements-monorepo",
+  "scripts": {
+    "install": "lerna link",
+    "prepare": "lerna run prepare",
+    "test": "echo \"Warn: no tests\""
+  },
+  "devDependencies": {
+    "lerna": "3.13.2"
+  },
+  "license": "MIT",
+  "private": true
+}
