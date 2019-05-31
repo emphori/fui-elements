@@ -1,5 +1,10 @@
 'use strict';
 
-const { svg } = require('@chaff/fui-svg');
+const { svg, g, path } = require('@chaff/fui-svg');
 
-exports.circle = svg;
+exports.hexagon =
+  svg.attr('width', '35px').attr('height', '35px').attr('viewBox', '0 0 35 35').attr('version', '1.1').attr('xmlns', 'http://www.w3.org/2000/svg').attr('xmlns:xlink', 'http://www.w3.org/1999/xlink').add(
+    g.attr('transform', 'translate(-1.000000, 0.000000)').attr('stroke', '#979797').attr('stroke-width', '2').attr('fill', 'none').add(
+      path.attr('d', 'M22.6144968,2.98935688 L31.9800488,9.79382872 C34.4334606,11.5763368 35.4600676,14.735908 34.5229476,17.6200666 L30.9456251,28.6299334 C30.0085051,31.514092 27.3208133,33.4668144 24.2882295,33.4668144 L12.7117705,33.4668144 C9.6791867,33.4668144 6.99149486,31.514092 6.05437491,28.6299334 L2.47705237,17.6200666 C1.53993243,14.735908 2.56653936,11.5763368 5.01995121,9.79382872 L14.3855032,2.98935688 C16.8389151,1.20684883 20.1610849,1.20684883 22.6144968,2.98935688 Z')
+    )
+  );
