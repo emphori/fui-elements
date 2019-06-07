@@ -1,3 +1,3 @@
 # Fui Elements
 
-A suite of shared elements build with Fui
+A suite of shared elements built with Fui
