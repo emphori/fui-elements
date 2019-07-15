@@ -19,5 +19,5 @@ Currently there are four shapes available, and they should appear as below.
   <img src="./assets/hexagon.svg" />
   <img src="./assets/squiggle.svg" />
   <img src="./assets/square.svg" />
-  <img src="./assets/triange.svg" />
+  <img src="./assets/triangle.svg" />
 </p>
