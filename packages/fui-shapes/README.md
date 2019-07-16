@@ -17,14 +17,14 @@ Currently there are four shapes available, and they should appear as below.
 
 <p align="center">
   <img src="./assets/hexagon.svg" />
-  <small>hexagon</small>
+  <sub><sup>hexagon</sup></sub>
 
   <img src="./assets/squiggle.svg" />
-  <small>squiggle</small>
+  <sub><sup>squiggle</sup></sub>
 
   <img src="./assets/square.svg" />
-  <small>square</small>
+  <sub><sup>square</sup></sub>
 
   <img src="./assets/triangle.svg" />
-  <small>triangle</small>
+  <sub><sup>triangle</sup></sub>
 </p>
