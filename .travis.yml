@@ -1,0 +1,13 @@
+language: node_js
+
+node_js:
+  - "lts/*"
+
+before_deploy: "echo '//registry.npmjs.org/:_authToken=${NPM_AUTH_TOKEN}' > .npmrc"
+
+deploy:
+  provider: script
+  script: "npx lerna publish from-git --yes"
+  skip_cleanup: true
+  on:
+    branch: master
