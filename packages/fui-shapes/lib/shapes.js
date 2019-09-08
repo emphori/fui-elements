@@ -1,6 +1,6 @@
 'use strict';
 
-const { svg, g, path } = require('@chaff/fui-svg');
+const { svg, g, path } = require('@chaffity/fui-svg');
 
 exports.hexagon =
   svg.attr('width', '35px').attr('height', '35px').attr('viewBox', '0 0 35 35').attr('version', '1.1').attr('xmlns', 'http://www.w3.org/2000/svg').attr('xmlns:xlink', 'http://www.w3.org/1999/xlink').add(
