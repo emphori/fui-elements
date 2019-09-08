@@ -9,7 +9,7 @@
     "shapes"
   ],
   "author": "Emphori (https://emphori.studio)",
-  "homepage": "https://github.com/Emphori/fui-elements#readme",
+  "homepage": "https://github.com/Emphori/fui-elements/tree/master/packages/fui-shapes#readme",
   "license": "MIT",
   "main": "./lib/shapes.js",
   "files": [
