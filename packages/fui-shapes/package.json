@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Emphori/fui-elements/tree/master/packages/fui-shapes"
+    "url": "https://github.com/Emphori/fui-elements.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
