@@ -21,7 +21,7 @@ deploy:
     on:
       branch: master
 
-  # Publish to https://npm.pkg.github.com/"
+  # Publish to https://npm.pkg.github.com/
   - provider: script
     script: "npx lerna publish from-package --yes --registry=https://npm.pkg.github.com/"
     skip_cleanup: true
