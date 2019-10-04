@@ -10,7 +10,7 @@ after_script:
   - codecov
 
 before_deploy:
-  - "echo '//registry.npmjs.org/:_authToken=${NPM_AUTH_TOKEN}' > .npmrc"
+  - "echo '//registry.npmjs.org/:_authToken=${NPM_TOKEN}' > .npmrc"
   - "echo '//npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}' > .npmrc"
 
 deploy:
@@ -27,3 +27,6 @@ deploy:
     skip_cleanup: true
     on:
       branch: master
+
+env:
+  - secure: itjv+ZqWZEpVx/V9selq7320CDUiNawkLYLHQGwgWytHTVJ3bdJ4BSq/+wt8gwr++9Tf179Wt+VpOAXla3p4iX10pLmsTn/vb9aIOfkKlx2zgrVi4qcifF0diqUd5mjkL0KA1XLo2bNlOiwGgaeeQQmwei2IJLtv140nlNl7Z31pCPjLjhURkrPpo3v5AmjObZHOqmcEVG23xkjrTntX9NttGFFzjPCLLQ1CPQUsVBj3kG5L94azuFmRYUcnyN0ZXNM/MFGGPTZ4OACKjEMcLSu6ewG9qnzLOKbkXQXOCEYqMHO0df/f8XPeQl1guK3rGNtnUz2ye4DHKFrMsoeOL232YK63yqXb9vPCRcD0R1r6OYra2NZB4jQqkQCkpAItYu9twEOvoXpbBP/0noELV3gaJipkYc0zby+SqXylqH2HpwVvoqhcQQUPR3aSi6ya/YNDqsH8ubIYTsuBBOPwsq2v3yhfvRig4rDTP35mDMRj+9XF1BcUQekYTrI2YI+aSGYr7uLCfkT/cWmmy2ZwiKGZYN3Fl8RsYyUSpycIIWvg6jUlhDJO2sTYmsiZ/e2WXpfWYzzbxBD1l/QLg6rjfGdO8RCJK+snA6263/t52by4/rfMXOux4SejvToM3sJ2tHvQ981adisk9+uPU2HfJI9ZctG+WL2P2S69txRX6q0=
