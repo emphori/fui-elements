@@ -6,7 +6,7 @@
     "test": "echo \"Warn: no tests\""
   },
   "devDependencies": {
-    "lerna": "3.13.2"
+    "lerna": "3.18.4"
   },
   "license": "MIT",
   "private": true
